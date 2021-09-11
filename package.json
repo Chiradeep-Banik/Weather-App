@@ -4,7 +4,7 @@
   "description": "A app to get the weather of a place",
   "main": "routes/app.js",
   "scripts": {
-    "start": "node run routes/app.js"
+    "start": "node routes/app.js"
   },
   "repository": {
     "type": "git",
