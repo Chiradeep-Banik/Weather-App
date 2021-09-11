@@ -2,6 +2,7 @@ const express = require('express');
 const handlebars = require('express-handlebars');
 const app = express(); // creating an express app
 const utils = require('../public/script/utils');
+const port = process.env.PORT || 1313;
 
 const public_path = '/mnt/c/Users/chira/OneDrive/Desktop/CODE/Weather-App/public';
 const views_path = '/mnt/c/Users/chira/OneDrive/Desktop/CODE/Weather-App/views';
@@ -68,4 +69,8 @@ app.get('*',(req,res)=>{
     });
 });
 
-app.listen(1313, () => console.log("Started at port 1313"));// started up the server at port 1313
+app.listen(port, () => console.log(`Started at port ${port}`));// started up the server at port port
+
+module.exports= {
+    port : port
+};
