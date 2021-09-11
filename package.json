@@ -1,0 +1,24 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A app to get the weather of a place",
+  "main": "routes/app.js",
+  "scripts": {
+    "start": "node run routes/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chiradeep-Banik/Weather-App.git"
+  },
+  "author": "banik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chiradeep-Banik/Weather-App/issues"
+  },
+  "homepage": "https://github.com/Chiradeep-Banik/Weather-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "postman-request": "^2.88.1-postman.30"
+  }
+}
