@@ -1,0 +1,45 @@
+*{
+    font-size: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
+ul{
+    left: 0;
+    right: 100%;
+    top:0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    border-bottom: 0.4rem solid rgba(0, 0, 0, 0.363);
+}
+ul li{
+    text-decoration: none;
+    color: brown;
+    padding: 0.5rem 2.5rem;
+    border: 0.3rem solid black;
+}
+ul li:hover{
+    background-color: rgba(0, 0, 0, 0.363);
+}
+a{
+    font-size: 5rem;
+    text-decoration: none;
+    color: brown;
+}
+footer{
+    position:fixed;
+    bottom: 0;
+    left :0;
+    height:8vh;
+    width: 100%;
+    margin-top: 1rem;
+    padding-top:1rem;
+    border-top: rgba(0, 0, 0, 0.363) 0.4rem solid;
+    font-size: 2.5rem;
+    color: brown;
+    font-weight: bold;
+}

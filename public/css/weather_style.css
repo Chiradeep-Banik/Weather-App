@@ -1,0 +1,25 @@
+*{
+    font-size: 10px;
+    box-sizing: border-box;
+}
+#app{
+    width: 100rem;
+    height: 45rem;
+    background-color: rgba(165, 42, 42, 0.5);
+    text-align: center;
+    margin: 1rem auto;
+}
+.in{
+    padding:2rem;
+}
+#app label{
+    font-size: 5rem;
+}
+#app input{
+    font-size: 5rem;
+}
+#app button{
+    font-size: 2.5rem;
+    cursor: pointer;
+
+}

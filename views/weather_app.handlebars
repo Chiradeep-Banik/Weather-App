@@ -1,0 +1,11 @@
+<div id="app">
+    <div class="in">
+        <label>Enter a place : </label>
+        {{#if place_holder}}
+            <input type="text" placeholder="{{place_holder}}"><br>
+        {{else}}
+            <input type="text" placeholder="e.g.Tokyo"><br>
+        {{/if}}
+    </div>
+    <button type="submit">Search</button>
+</div>
