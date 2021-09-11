@@ -2,7 +2,7 @@ console.log("weather.js");
 var text_input = document.querySelector("input");
 var button = document.querySelector("button");
 var app = document.querySelector("#app");
-var url = `${window.location.origin}/get_weather?address=`;
+var url = `/get_weather?address=`;
 
 button.addEventListener("click", ()=>{
     var ele = document.querySelector(".text-center");
