@@ -4,8 +4,10 @@ const app = express(); // creating an express app
 const utils = require('../public/script/utils');
 const port = process.env.PORT || 1313;
 
-const public_path = '/mnt/c/Users/chira/OneDrive/Desktop/CODE/Weather-App/public';
-const views_path = '/mnt/c/Users/chira/OneDrive/Desktop/CODE/Weather-App/views';
+// const public_path = '/mnt/c/Users/chira/OneDrive/Desktop/CODE/Weather-App/public';
+// const views_path = '/mnt/c/Users/chira/OneDrive/Desktop/CODE/Weather-App/views';
+var public_path = __dirname + '/../public';
+var views_path = __dirname + '/../views';
 
 app.use(express.static(public_path));
 
